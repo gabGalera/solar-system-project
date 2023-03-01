@@ -1,7 +1,9 @@
 .header {
   background-image: url('../../images/logo-sistema-solar.png');
   background-size: cover;
-  height: 55vh;
-  margin-bottom: 25vh;
-  width: 50vw;
+  color: transparent;
+  height: 35vh;
+  margin-bottom: 10vh;
+  margin-top: 7vh;
+  width: 30vw;
 }

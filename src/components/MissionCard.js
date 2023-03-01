@@ -13,7 +13,7 @@ class MissionCard extends React.Component {
         data-testid="mission-card"
       >
         <p
-          className={ styles.text }
+          className={ styles.title }
           data-testid="mission-name"
         >
           { name }

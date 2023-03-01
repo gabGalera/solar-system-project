@@ -8,7 +8,7 @@ class Header extends React.Component {
         className={ styles.header }
       >
         <h1>
-          {/* Sistema Solar */}
+          Sistema Solar
         </h1>
       </header>
     );
