@@ -3,13 +3,33 @@ body {
   padding: 0;
 }
 
+.main__div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .container {
   align-items: center;
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
-  margin: 0;
+  margin: 2%;
   overflow-x: scroll;
   padding: 1vw;
-  width: 99vw;
+  width: 98.9vw;
+}
+
+.main__div > h2 {
+  color: white;
+  font-family: Epilogue , sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+
+  /* identical to box height, or 60px */
+  text-align: center;
+  text-transform: uppercase;
 }

@@ -1,0 +1,15 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.container > h2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
