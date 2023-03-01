@@ -21,6 +21,28 @@ body {
   width: 98.9vw;
 }
 
+.container::-webkit-scrollbar {
+  height: 1vh;
+  width: 100%;
+}
+
+/* Track */
+.container::-webkit-scrollbar-track {
+  background: rgba(24, 26, 37, 0.5);
+  border-radius: 5px;
+}
+
+/* Handle */
+.container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.container::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
+
 .main__div > h2 {
   color: white;
   font-family: Epilogue , sans-serif;
@@ -28,8 +50,6 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: 150%;
-
-  /* identical to box height, or 60px */
   text-align: center;
   text-transform: uppercase;
 }
